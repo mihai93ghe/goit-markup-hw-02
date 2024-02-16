@@ -23,11 +23,12 @@
   font-weight: 800;
 }
 
-.menu-items > li {
-  list-style-type: none;
+.menu-items > li > a {
   text-decoration: none;
 }
-
+.menu-items > li {
+  list-style-type: none;
+}
 .order-button {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
@@ -66,5 +67,14 @@ h6 {
 }
 
 .team-members > li {
-  text-decoration: none;
+  list-style-type: none;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 500;
 }
