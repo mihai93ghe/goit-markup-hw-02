@@ -6,18 +6,15 @@
   --main-background-color: #ffffff;
 }
 
-.body {
+.main-page {
   font-family: var(--text-font-family);
   color: var(--body-text-color);
-}
-
-.logo::before {
-  content: web;
-  color: #4d5ae5;
+  font-size: 16px;
 }
 
 .global-header .logo {
   text-decoration: none;
+  font-size: 18px;
 }
 
 .ul {
@@ -26,10 +23,18 @@
 
 .order-button {
   background-color: #4d5ae5;
-  font-size: 16px;
   font-family: "Roboto", sans-serif;
   border-radius: 4px;
   padding: 16px, 32px, 16px, 32px;
   border-color: #4d5ae5;
   color: #fff;
+  font-weight: 500;
+}
+
+.logo .iris-blue {
+  color: #4d5ae5;
+}
+
+.logo .navy-blue {
+  color: var(--body-text-color);
 }
