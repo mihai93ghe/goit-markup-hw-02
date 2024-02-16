@@ -2,6 +2,13 @@
   --link-color: #000000;
   --logo-font-family: "Raleway", sans-serif;
   --text-font-family: "Roboto", sans-serif;
+  --body-text-color: #2e2f42;
+  --main-background-color: #ffffff;
+}
+
+.body {
+  font-family: var(--text-font-family);
+  color: var(--body-text-color);
 }
 
 .logo::before {
@@ -9,10 +16,7 @@
   color: #4d5ae5;
 }
 
-.logo {
-}
-
-.a {
+.global-header .logo {
   text-decoration: none;
 }
 
