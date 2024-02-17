@@ -7,6 +7,7 @@
   --main-background-color: #ffffff;
   --brand-color: #4d5ae5;
   --secondary-bkg-color: #f4f4fd;
+  --hover-color: #404bbf;
 }
 
 .main-page {
@@ -39,6 +40,9 @@
   font-weight: 500;
 }
 
+.order-button:hover {
+  background-color: var(--hover-color);
+}
 .logo .iris-blue {
   color: #4d5ae5;
 }
@@ -47,15 +51,9 @@
   color: var(--body-text-color);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--heading-text-color);
+.logo .cloud {
+  color: var(--secondary-bkg-color);
 }
-
 .contact-info > a {
   text-decoration: none;
   color: var(--body-text-color);
@@ -63,7 +61,7 @@ h6 {
 
 .contact-info > a:hover,
 .contact-info > a:focus {
-  color: blue;
+  color: #404bbf;
 }
 
 .team-members > li {
@@ -73,8 +71,27 @@ h6 {
 h1,
 h2 {
   font-weight: 700;
+  color: var(--body-text-color);
 }
 
 h3 {
   font-weight: 500;
+  color: var(--body-text-color);
+}
+
+.hero-section {
+  background-color: #2e2f42;
+}
+
+.hero-section > h1 {
+  color: #ffffff;
+}
+
+.team-section {
+  background-color: var(--secondary-bkg-color);
+}
+
+.footer-section {
+  background-color: #2e2f42;
+  color: var(--secondary-bkg-color);
 }
