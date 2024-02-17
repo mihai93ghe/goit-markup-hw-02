@@ -30,6 +30,13 @@
 .menu-items > li {
   list-style-type: none;
 }
+.menu-items > li:hover {
+  color: var(--hover-color);
+}
+
+.menu-items > li > a:visited {
+  color: inherit;
+}
 .order-button {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
