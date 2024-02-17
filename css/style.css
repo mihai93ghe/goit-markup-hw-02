@@ -29,7 +29,6 @@
 }
 .menu-items > li {
   list-style-type: none;
-  display: inline-block;
 }
 .menu-items > li:hover {
   color: var(--hover-color);
@@ -107,6 +106,34 @@ h3 {
 }
 
 .features > li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.filter-buttons > li > button {
+  background-color: var(--secondary-bkg-color);
+  font-family: "Roboto", sans-serif;
+  border-radius: 4px;
+  padding: 12px, 24px, 12px, 24px;
+  border-color: #e7e9fc;
+  color: var(--brand-color);
+  font-weight: 500;
+  border: 1px;
+  cursor: pointer;
+}
+
+.filter-buttons > li > button:hover,
+.filter-buttons > li > button :focus {
+  background-color: var(--hover-color);
+  color: #ffffff;
+}
+
+.filter-buttons > li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.project-cards > li {
   list-style-type: none;
   display: inline-block;
 }
