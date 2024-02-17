@@ -29,9 +29,11 @@
 }
 .menu-items > li {
   list-style-type: none;
+  display: inline-block;
 }
 .menu-items > li:hover {
   color: var(--hover-color);
+  text-decoration: underline;
 }
 
 .menu-items > li > a:visited {
@@ -73,6 +75,7 @@
 
 .team-members > li {
   list-style-type: none;
+  display: inline-block;
 }
 
 h1,
@@ -101,4 +104,9 @@ h3 {
 .footer-section {
   background-color: #2e2f42;
   color: var(--secondary-bkg-color);
+}
+
+.features > li {
+  list-style-type: none;
+  display: inline-block;
 }
