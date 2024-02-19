@@ -51,16 +51,27 @@
 .order-button:hover {
   background-color: var(--hover-color);
 }
+
+.logo {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
 .logo .iris-blue {
   color: #4d5ae5;
 }
 
 .logo .navy-blue {
   color: var(--body-text-color);
+  margin-left: -5px;
 }
 
 .logo .cloud {
   color: var(--secondary-bkg-color);
+  margin-left: -5px;
 }
 .contact-info > a {
   text-decoration: none;
@@ -120,12 +131,16 @@ h3 {
   font-weight: 500;
   border: 1px;
   cursor: pointer;
+  width: 116px;
+  height: 48px;
 }
 
 .filter-buttons > li > button:hover,
 .filter-buttons > li > button :focus {
   background-color: var(--hover-color);
   color: #ffffff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08),
+    0 3px 1px 0 rgba(0, 0, 0, 0.1);
 }
 
 .filter-buttons > li {
