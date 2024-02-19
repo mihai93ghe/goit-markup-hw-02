@@ -10,6 +10,12 @@
   --hover-color: #404bbf;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .main-page {
   font-family: var(--text-font-family);
   color: var(--body-text-color);
